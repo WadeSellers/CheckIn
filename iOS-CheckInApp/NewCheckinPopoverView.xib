@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewCheckinPopoverView" customModule="iOS_CheckInApp" customModuleProvider="target">
+            <connections>
+                <outlet property="additionalInfoLabel" destination="Zj2-O2-TBa" id="Y2E-x8-a6k"/>
+                <outlet property="maxSellableWeighLabel" destination="Mqk-3S-CBA" id="OlK-bV-FVh"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NewCheckinPopoverView" customModule="iOS_CheckInApp">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="500"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gkp-QQ-Qat" userLabel="Background View" customClass="NewCheckinPopoverView" customModule="iOS_CheckInApp" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="50" width="300" height="450"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wade S." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNX-vg-YsZ" userLabel="Name Label">
+                            <rect key="frame" x="8" y="84" width="284" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="DeV-AV-nFP"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(09/08/1985)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EeO-3w-pvW" userLabel="Date of Birth label">
+                            <rect key="frame" x="88" y="168" width="124" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="0cF-62-hWw"/>
+                                <constraint firstAttribute="width" constant="124" id="qb9-HH-K5x"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="from Pennsylvania" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zj2-O2-TBa">
+                            <rect key="frame" x="8" y="214" width="284" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="cuN-MJ-cC3"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(7 gram max)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mqk-3S-CBA">
+                            <rect key="frame" x="8" y="243" width="284" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="9VC-fG-u8w"/>
+                                <constraint firstAttribute="width" constant="284" id="fnk-DZ-hfJ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="88 years old" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bwa-xS-qcz" userLabel="Years Old Label">
+                            <rect key="frame" x="97" y="139" width="107" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="7Fx-aC-Ohd"/>
+                                <constraint firstAttribute="width" constant="107" id="PO6-m0-KJo"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.12941176469999999" green="0.14117647059999999" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="EeO-3w-pvW" firstAttribute="top" secondItem="Bwa-xS-qcz" secondAttribute="bottom" constant="8" id="3w1-aO-lw1"/>
+                        <constraint firstItem="Bwa-xS-qcz" firstAttribute="centerX" secondItem="Gkp-QQ-Qat" secondAttribute="centerX" id="8pI-0b-XMG"/>
+                        <constraint firstItem="JNX-vg-YsZ" firstAttribute="leading" secondItem="Gkp-QQ-Qat" secondAttribute="leading" constant="8" id="DZZ-0W-cgW"/>
+                        <constraint firstItem="Bwa-xS-qcz" firstAttribute="top" secondItem="JNX-vg-YsZ" secondAttribute="bottom" constant="31" id="FLr-w7-8Va"/>
+                        <constraint firstItem="EeO-3w-pvW" firstAttribute="centerX" secondItem="Gkp-QQ-Qat" secondAttribute="centerX" id="Oef-Ey-hXh"/>
+                        <constraint firstItem="Mqk-3S-CBA" firstAttribute="top" secondItem="Zj2-O2-TBa" secondAttribute="bottom" constant="8" id="UiZ-qB-9g7"/>
+                        <constraint firstItem="Zj2-O2-TBa" firstAttribute="top" secondItem="EeO-3w-pvW" secondAttribute="bottom" constant="25" id="ZWY-jk-7xP"/>
+                        <constraint firstAttribute="trailing" secondItem="Zj2-O2-TBa" secondAttribute="trailing" constant="8" id="bgZ-tf-W9B"/>
+                        <constraint firstItem="Zj2-O2-TBa" firstAttribute="leading" secondItem="Gkp-QQ-Qat" secondAttribute="leading" constant="8" id="hLe-Al-PxH"/>
+                        <constraint firstAttribute="trailing" secondItem="JNX-vg-YsZ" secondAttribute="trailing" constant="8" id="kCh-9w-Xyj"/>
+                        <constraint firstItem="Mqk-3S-CBA" firstAttribute="centerX" secondItem="Gkp-QQ-Qat" secondAttribute="centerX" id="uax-c1-dyX"/>
+                        <constraint firstItem="JNX-vg-YsZ" firstAttribute="top" secondItem="Gkp-QQ-Qat" secondAttribute="top" constant="84" id="yJ9-74-0st"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aHS-ZP-aa4" userLabel="Customer Type Frame View">
+                    <rect key="frame" x="100" y="0.0" width="100" height="100"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-oval-customertype-rec" translatesAutoresizingMaskIntoConstraints="NO" id="fxC-12-oHt" userLabel="Customer Type ImageView">
+                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.12941176469999999" green="0.14117647059999999" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="fxC-12-oHt" secondAttribute="trailing" id="F9G-Te-u51"/>
+                        <constraint firstAttribute="height" constant="100" id="Hdz-JQ-bCh"/>
+                        <constraint firstItem="fxC-12-oHt" firstAttribute="leading" secondItem="aHS-ZP-aa4" secondAttribute="leading" id="Uq2-Uf-vJX"/>
+                        <constraint firstItem="fxC-12-oHt" firstAttribute="top" secondItem="aHS-ZP-aa4" secondAttribute="top" id="enp-cn-XM1"/>
+                        <constraint firstAttribute="width" constant="100" id="haG-Bm-mgf"/>
+                        <constraint firstAttribute="bottom" secondItem="fxC-12-oHt" secondAttribute="bottom" id="kgb-Oz-jZ3"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Gkp-QQ-Qat" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="3Xc-ba-hgW"/>
+                <constraint firstItem="aHS-ZP-aa4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="OsM-VA-tto"/>
+                <constraint firstItem="Gkp-QQ-Qat" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="50" id="T55-5n-qOV"/>
+                <constraint firstAttribute="bottom" secondItem="Gkp-QQ-Qat" secondAttribute="bottom" id="aUt-tq-QuP"/>
+                <constraint firstItem="aHS-ZP-aa4" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="hon-1H-uVw"/>
+                <constraint firstAttribute="trailing" secondItem="Gkp-QQ-Qat" secondAttribute="trailing" id="zgo-ds-bvo"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backgroundView" destination="Gkp-QQ-Qat" id="gCr-cR-uuF"/>
+                <outlet property="customerTypeFrameView" destination="aHS-ZP-aa4" id="0sr-Jh-MIn"/>
+                <outlet property="customerTypeImageView" destination="fxC-12-oHt" id="9re-c7-hEa"/>
+                <outlet property="dateOfBirthLabel" destination="EeO-3w-pvW" id="Q3W-sg-LgW"/>
+                <outlet property="nameLabel" destination="JNX-vg-YsZ" id="Q9U-aL-3c1"/>
+                <outlet property="yearsOldLabel" destination="Bwa-xS-qcz" id="0df-BA-aP6"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon-oval-customertype-rec" width="135" height="135"/>
+    </resources>
+</document>

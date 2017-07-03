@@ -1,0 +1,45 @@
+PODS:
+  - Alamofire (3.3.0)
+  - AmazonS3RequestManager (0.10.2):
+    - Alamofire (~> 3.0)
+    - SWXMLHash (~> 2.0)
+  - Crashlytics (3.7.0):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.7)
+  - M13OrderedDictionary (1.1.0)
+  - NSLogger (1.5.1):
+    - NSLogger/Standard (= 1.5.1)
+  - NSLogger/Standard (1.5.1)
+  - ObjectiveDDP (0.1.8):
+    - M13OrderedDictionary
+    - SocketRocket (= 0.3.1-beta2)
+  - Realm (0.98.6):
+    - Realm/Headers (= 0.98.6)
+  - Realm/Headers (0.98.6)
+  - RealmSwift (0.98.6):
+    - Realm (= 0.98.6)
+  - SocketRocket (0.3.1-beta2)
+  - SWXMLHash (2.2.0)
+
+DEPENDENCIES:
+  - AmazonS3RequestManager (~> 0.10)
+  - Crashlytics
+  - Fabric
+  - NSLogger
+  - ObjectiveDDP
+  - RealmSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 9054db4a1b1ca9e363223183e01cea380159a27c
+  AmazonS3RequestManager: ddc4537023a0bea7f90e692d630d06885ff81620
+  Crashlytics: c3a2333dea9e2733d2777f730910321fc9e25c0d
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  M13OrderedDictionary: 6e157fe9c82aa6b3cd7198f5c5c30c7a6834c4a6
+  NSLogger: 5ed223a2436df96244e033be750656dacdeec034
+  ObjectiveDDP: 87609d002487bdb2e81b460de707b684551c04de
+  Realm: 44803f35418c5d89b27825a564247fcd190de37e
+  RealmSwift: c7239c52c83f8c43525a5269ba7be1694da33afc
+  SocketRocket: 7284ab9370a06c99aba92b2fe3a32aedd0f9a6fa
+  SWXMLHash: cf2a62b04514211b238b39b3aa348ba4746523af
+
+COCOAPODS: 0.39.0

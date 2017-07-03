@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 ${inherited} NSLOGGER_WAS_HERE=1 NSLOGGER_BUILD_USERNAME="${USER}"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/M13OrderedDictionary.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/NSLogger.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/ObjectiveDDP.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/SocketRocket.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "M13OrderedDictionary" -framework "NSLogger" -framework "ObjectiveDDP" -framework "SocketRocket"
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-iOS-CheckInAppTests
+PODS_ROOT = ${SRCROOT}/Pods
